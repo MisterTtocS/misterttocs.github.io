@@ -41,19 +41,39 @@ p {
 }
 	
 body {
-	/*background-color:  lightgray;*/
 	background-size:  200px 150px;
 	background-color:  gray;
 }
 
 a {
 	text-decoration:  none;
+	color:  blue;
+}
+
+a:hover {
+	background-color:  yellow;
 }
 
 a:visited {
-	color:  black;
+	color:  blue;
 }
 
 a:link {
+	color:  blue;
+}
+
+#horizontalButtonLinks {
+	text-decoration:  none;
+}
+
+#horizontalButtonLinks:visited {
+	color:  black;
+}
+
+#horizontalButtonLinks:hover {
+	background-color:  gray;
+}
+
+#horizontalButtonLinks:link {
 	color:  black;
 }
