@@ -1,0 +1,59 @@
+h1 {
+	font-family:  verdana;
+	text-align:  center;
+	background-color:  white;
+	}
+	
+p {
+	font-family:  verdana;
+}
+
+#homeButton:hover {
+	background-color:  gray;
+}
+
+#mainDiv {
+	background-color:  lightgray;
+	text-align:  center;
+	font-family:  verdana;
+	margin-right:  250px;
+	margin-left:  250px;
+}
+
+#horizontalButtons {
+	float:  left;
+	width:  100%;
+	padding:  0;
+	margin:  0;
+	list-style-type:  none;
+}
+
+#horizontalButton {
+	display:  inline;
+	border:  3px solid black;
+	font-size:  50px;
+	background-color:  white;
+	border-radius:  3px;
+}
+
+#horizontalButton:hover {
+	background-color:  gray;
+}
+	
+body {
+	/*background-color:  lightgray;*/
+	background-size:  200px 150px;
+	background-color:  gray;
+}
+
+a {
+	text-decoration:  none;
+}
+
+a:visited {
+	color:  black;
+}
+
+a:link {
+	color:  black;
+}
