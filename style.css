@@ -8,6 +8,15 @@ p {
 	font-family:  verdana;
 }
 
+#secretLink {
+	color:  lightgray;
+}
+
+#secretLink:hover {
+	color:  lightgray;
+	background-color:  lightgray;
+}
+
 #homeButton:hover {
 	background-color:  gray;
 }
