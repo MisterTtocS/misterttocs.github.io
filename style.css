@@ -21,6 +21,11 @@ p {
 	font-size:  30px;
 }
 
+details {
+	font-size:  30px;
+	cursor:  pointer;
+}
+
 li {
 	font-family:  MisterTtocSHandwritingFont;
 	font-size:  30px;
