@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Secret!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script>
+		enterPasscode();
+		function enterPasscode() {
+			var passcode = prompt("Enter that passcode to see the page.  If you do not want to see the page, then click \"cancel\"");
+			if (passcode == "110815") {
+				// Code here.
+			} else if (passcode == null){
+				window.location.href = "http://misterttocs.github.io/games";
+			} else {
+				alert("That isn't the passcode!");
+				enterPasscode();
+			}
+		}
+	</script>	
+</head>
+
+<body background="images/websitebackground.png">
+	
+	
+	<div id="mainDiv">
+		<!--<br>
+		<a href="http://misterttocs.github.io/" id="horizontalButtonLinks"><img id="homeButton" src="images/toastergraphic.png"></img></a>
+		<br>
+		<br>
+		<br>
+		<ul id="horizontalButtons">
+			<a href="http://misterttocs.github.io/about" id="horizontalButtonLinks"><li id="horizontalButton">About</li></a>
+			<a href="http://misterttocs.github.io/games" id="horizontalButtonLinks"><li id="horizontalButton">Games</li></a>
+		</ul>-->
+		<br>
+		<h1>MisterTtocS's Game Demos</h1>
+		<p>This is where I will be putting game demos.</p>
+		<!--<img src="images/toaster.png" style="margin-left:  100px; margin-right:  100px;">-->
+		<h3>Current Demo:  Stupid Clicker Game</h3>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	</div>
+</body>
+
+</html>
+
