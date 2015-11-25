@@ -116,3 +116,10 @@ a:link {
 	border:  1px solid black;
 	border-radius:  3px;
 }
+
+#gameProgressBar {
+	background-color:  darkgray;
+	border:  1px solid black;
+	color:  green;
+	font-size:  30px;
+}
