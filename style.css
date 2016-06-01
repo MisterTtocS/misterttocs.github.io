@@ -115,6 +115,33 @@ a:link {
 	background-color:  #969696;
 	border:  1px solid black;
 	border-radius:  3px;
+	width:  500px;
+}
+
+#gameSpanLeft {
+	background-color:  #969696;
+	border:  1px solid #000000;
+	border-radius:  3px;
+	width:  691px;
+	height:  900px;
+    float:  left;
+}
+
+#gameSpanRight {
+	background-color:  #969696;
+	border:  1px solid black;
+	border-radius:  3px;
+	width:  692px;
+	height:  900px;
+    float:  right;
+}
+
+#gamesComingSoon {
+    background-color:  #969696;
+	border:  3px solid black;
+	border-radius:  3px;
+	width:  1387px;
+    clear:  right;
 }
 
 #gameProgressBar {
