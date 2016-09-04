@@ -18,7 +18,7 @@ h3 {
 	
 p {
 	font-family:  MisterTtocSHandwritingFont;
-	font-size:  30px;
+	font-size:  50px;
 }
 
 details {
@@ -28,7 +28,7 @@ details {
 
 li {
 	font-family:  MisterTtocSHandwritingFont;
-	font-size:  30px;
+	font-size:  50px;
 }
 
 #secretLink {
@@ -63,7 +63,7 @@ li {
 #horizontalButton {
 	display:  inline;
 	border:  3px solid black;
-	font-size:  50px;
+	font-size:  70px;
 	background-color:  white;
 	border-radius:  3px;
 }
