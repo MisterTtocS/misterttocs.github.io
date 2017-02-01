@@ -15,7 +15,7 @@ h3 {
 	text-align:  center;
 	font-size:  50px;
 }
-	
+
 p {
 	font-family:  MisterTtocSHandwritingFont;
 	font-size:  50px;
@@ -48,8 +48,8 @@ li {
 	background-color:  lightgray;
 	text-align:  center;
 	font-family:  MisterTtocSHandwritingFont;
-	margin-right:  250px;
-	margin-left:  250px;
+	margin-right:  125px;
+	margin-left:  125px;
 }
 
 #horizontalButtons {
@@ -71,10 +71,11 @@ li {
 #horizontalButton:hover {
 	background-color:  gray;
 }
-	
+
 body {
 	background-size:  200px 150px;
 	background-color:  gray;
+	background-attachment: fixed;
 }
 
 a {
@@ -115,14 +116,15 @@ a:link {
 	background-color:  #969696;
 	border:  1px solid black;
 	border-radius:  3px;
-	width:  500px;
+	/*width:  555px;*/
+	text-align:  center;
 }
 
 #gameSpanLeft {
 	background-color:  #969696;
 	border:  1px solid #000000;
 	border-radius:  3px;
-	width:  693px;
+	width:  555px;
 	height:  1100px;
     float:  left;
 }
@@ -131,7 +133,7 @@ a:link {
 	background-color:  #969696;
 	border:  1px solid black;
 	border-radius:  3px;
-	width:  694px;
+	width:  555px;
 	height:  1100px;
     float:  right;
 }
@@ -147,9 +149,8 @@ a:link {
     background-color:  #969696;
 	border:  3px solid black;
 	border-radius:  3px;
-	width:  1387px;
     clear:  right;
-    line-height:  .5;
+    line-height:  .7;
 }
 
 #gameProgressBar {
@@ -160,7 +161,7 @@ a:link {
 }
 
 html {
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
 }
 *, *:before, *:after {
   box-sizing: inherit;
