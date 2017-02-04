@@ -3,6 +3,48 @@
 	src:  url(fonts/MisterTtocSHandwritingFont.ttf)
 }
 
+#wrapper {
+	margin-right:  auto;
+	margin-left:  auto;
+	width:  1180px;
+	padding:  10px;
+	/*background-color:  lightgray;*/
+}
+
+#nav {
+	float:  left;
+	width:  1200px;
+}
+
+#header {
+	float:  left;
+	width:  1200px;
+	background-color:  lightgray;
+}
+
+#main {
+	width:  1200px;
+	float:  left;
+	background-color:  lightgray;
+		margin-bottom:  10px;
+}
+
+#about {
+	width:  600px;
+	height:  550px;
+	float:  left;
+	background-color:  darkgray;
+}
+
+#discordWidget {
+	width: 600px;
+	height:  500px;
+	float:  left;
+	background-color:  darkgray;
+	padding-top:  25px;
+	padding-bottom:  25px;
+}
+
 body {
   font-family:  MisterTtocSHandwritingFont;
   text-align:  center;
@@ -48,5 +90,22 @@ h2 {
 }
 
 p {
-  font-size:  30px;
+  font-size:  35px;
+}
+
+div.gameDiv {
+	background-color:  darkgray;
+	margin-left:  50px;
+	margin-right:  50px;
+}
+
+a.gameLink {
+	font-size:  35px;
+	text-decoration:  none;
+	color:  goldenrod;
+}
+
+a.gameLink:hover {
+	background-color:  darkgray;
+	color:  white;
 }

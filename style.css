@@ -1,81 +1,122 @@
 @font-face {
 	font-family:  MisterTtocSHandwritingFont;
-	src:  url(fonts/MisterTtocSHandwritingFont.ttf)
+	src:  url(fonts/MisterTtocSHandwritingFont.ttf);
 }
 
-h1 {
-	font-family:  MisterTtocSHandwritingFont;
-	text-align:  center;
-	background-color:  white;
+#wrapper {
+	width:  1200px;
+	height:  1420px;
+	margin-right:  auto;
+	margin-left:  auto;
+	background-color:  lightgray;
+}
+
+#gamesWrapper {
+	width:  1200px;
+	height:  7390px;
+	margin-right:  auto;
+	margin-left:  auto;
+	background-color:  lightgray;
+}
+
+#topButton {
+	padding-top: 25px;
+	padding-bottom:  25px;
+}
+
+#nav {
+	width:  1200px;
+	float:  left;
+	background-color:  gray;
+}
+
+#header {
+	width:  1200px;
+	float:  left;
+	background-color:  lightgray;
+}
+
+h1.pageName {
 	font-size:  100px;
 }
 
-h3 {
+#main {
+	float:  left;
+	width:  1200px;
+	background-color:  lightgray;
+}
+
+#welcome {
+	width:  600px;
+	height:  650px;
+	float:  left;
+	padding-top:  25px;
+	padding-bottom:  25px;
+	background-color:  lightgray;
+}
+
+#twitterTimeline {
+	width:  550px;
+	height:  600px;
+	float:  left;
+	padding-top:  50px;
+	padding-bottom:  50px;
+	padding-right:  25px;
+	padding-left:  25px;
+	background-color:  lightgray;
+}
+
+body {
+	background-size:  500px 375px;
+	background-color:  gray;
+	background-attachment: fixed;
+	background-image:  url("images/websitebackground.png");
+	text-align:  center;
 	font-family:  MisterTtocSHandwritingFont;
+	margin-bottom:  10px;
+}
+
+h3 {
 	text-align:  center;
 	font-size:  50px;
 }
 
 p {
-	font-family:  MisterTtocSHandwritingFont;
 	font-size:  50px;
-}
-
-details {
-	font-size:  30px;
-	cursor:  pointer;
-}
-
-li {
-	font-family:  MisterTtocSHandwritingFont;
-	font-size:  50px;
-}
-
-#secretLink {
-	color:  lightgray;
-}
-
-#secretLink:hover {
-	color:  lightgray;
-	background-color:  lightgray;
 }
 
 #homeButton:hover {
 	background-color:  gray;
 }
 
-#mainDiv {
-	background-color:  lightgray;
-	text-align:  center;
-	font-family:  MisterTtocSHandwritingFont;
-	margin-right:  125px;
-	margin-left:  125px;
-}
-
 #horizontalButtons {
-	float:  left;
-	width:  100%;
-	padding:  0;
-	margin:  0;
 	list-style-type:  none;
 }
 
 #horizontalButton {
 	display:  inline;
-	border:  3px solid black;
 	font-size:  70px;
-	background-color:  white;
-	border-radius:  3px;
+	padding:  15px;
 }
 
 #horizontalButton:hover {
-	background-color:  gray;
+	background-color:  white;
 }
 
-body {
-	background-size:  200px 150px;
-	background-color:  gray;
-	background-attachment: fixed;
+#horizontalButtonLinks {
+	text-decoration:  none;
+}
+
+#horizontalButtonLinks:visited {
+	color:  black;
+}
+
+#horizontalButtonLinks:hover {
+	background-color:  white;
+}
+
+#horizontalButtonLinks:link {
+	color:  black;
 }
 
 a {
@@ -96,46 +137,15 @@ a:link {
 	color:  blue;
 }
 
-#horizontalButtonLinks {
-	text-decoration:  none;
-}
-
-#horizontalButtonLinks:visited {
-	color:  black;
-}
-
-#horizontalButtonLinks:hover {
-	background-color:  gray;
-}
-
-#horizontalButtonLinks:link {
-	color:  black;
-}
-
 #gameSpan {
-	background-color:  #969696;
+	width:  588px;
+	height:  1188px;
+	padding:  5px;
+	background-color:  darkgray;
 	border:  1px solid black;
 	border-radius:  3px;
-	/*width:  555px;*/
 	text-align:  center;
-}
-
-#gameSpanLeft {
-	background-color:  #969696;
-	border:  1px solid #000000;
-	border-radius:  3px;
-	width:  555px;
-	height:  1100px;
-    float:  left;
-}
-
-#gameSpanRight {
-	background-color:  #969696;
-	border:  1px solid black;
-	border-radius:  3px;
-	width:  555px;
-	height:  1100px;
-    float:  right;
+	float:  left;
 }
 
 #gameList {
@@ -146,18 +156,40 @@ a:link {
 }
 
 #gamesComingSoon {
-    background-color:  #969696;
+	width:  1194px;
+  background-color:  darkgray;
 	border:  3px solid black;
 	border-radius:  3px;
-    clear:  right;
-    line-height:  .7;
+  float:  right;
+  line-height:  .7;
 }
 
-#gameProgressBar {
+.gameInfo {
+	position:  relative;
+	display:  inline-block;
+}
+
+.gameInfo-content {
+	display:  none;
+	position:  absolute;
 	background-color:  darkgray;
-	border:  1px solid black;
-	color:  green;
-	font-size:  30px;
+	z-index:  1;
+}
+
+/*.gameInfo:hover .gameInfo-content {
+	display:  block;
+}*/
+
+.gameInfoButton {
+	cusror:  pointer;
+}
+
+.gameInfoButton:hover, gameInfoButton:focus {
+
+}
+
+.show {
+	display:  block;
 }
 
 html {

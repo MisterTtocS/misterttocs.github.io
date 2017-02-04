@@ -3,7 +3,7 @@
 <html>
 
 <head>
-	<title>MisterTtocS</title>
+	<title>MisterTtocS - Games</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script>
 		function enterPasscode() {
@@ -17,27 +17,23 @@
 		}
 	</script>
 </head>
+<body>
 
-<body background="images/websitebackground.png">
 
-
-	<div id="mainDiv">
-		<br>
-		<a href="index.html" id="horizontalButtonLinks"><img id="homeButton" src="images/ToasterPicture.png" width="291px" height="192"></img></a>
-		<br>
-		<br>
-		<br>
-		<ul id="horizontalButtons">
-			<a href="about.html" id="horizontalButtonLinks"><li id="horizontalButton">About</li></a>
-			<a href="games.html" id="horizontalButtonLinks"><li id="horizontalButton">Games</li></a>
-            <a href="contact.html" id="horizontalButtonLinks"><li id="horizontalButton">Contact</li></a>
-		</ul>
-		<br>
-		<br>
-		<br>
-		<br>
-		<h1>Games</h1>
-		<br>
+	<div id="gamesWrapper">
+		<div id="topButton">
+			<a href="index.html" id="horizontalButtonLinks"><img id="homeButton" src="images/ToasterPicture.png" width="291px" height="192"></img></a>
+		</div>
+		<div id="nav">
+			<ul id="horizontalButtons">
+				<a href="about.html" id="horizontalButtonLinks"><li id="horizontalButton">About</li></a>
+				<a href="games.html" id="horizontalButtonLinks"><li id="horizontalButton">Games</li></a>
+	      <a href="contact.html" id="horizontalButtonLinks"><li id="horizontalButton">Contact</li></a>
+			</ul>
+		</div>
+		<div id="header">
+			<h1 class="pageName">Games</h1>
+		</div>
 			<div id="gameList">
 			<h3>A list of all my games:</h3>
 				<p><a href="games.html#CU" style="color: red;">Coin Upgrade - In development</a></p>
@@ -49,7 +45,6 @@
 				<p><a href="games.html#NotAsA-MAZE-ING">Not As A-MAZE-ING</a></p>
 			</div>
 				<!--<p><a href="http://misterttocs.github.io/games#"></a></p>-->
-		<br>
 
          <!--<div id="gameSpan">
 			<h3 id="Nothing">Empty Slot</h3>
@@ -71,9 +66,7 @@
 			<p>It's coming back...</p>
             <p>...</p>
             <p>I'm waiting.</p>
-			<br>
 		</div>
-				<br/>
         <div id="gameSpan">
 			<h3 id="Pixeloot">Pixeloot Dungeon</h3>
             <img src="images/PixelootDungeonScreenshot1.png" width = "400" height = "300">
@@ -82,29 +75,22 @@
             <li><a href="" target="_blank">Coming Soon!</a></li>-->
 			<p>Coming soon...Not soon enough though.  Damn.</p>
             <p>This screenshot is shitty, but bear with me.  Game is still in development.</p>
-			<br/>
 		</div>
-				<br/>
         <div id="gameSpan">
 			<h3 id="Couch Potato">1GAM - Couch</h3>
-            <img src="images/1GAM-CouchScreenshot.png" width = "480" height = "254">
+            <img src="images/1GAM-CouchScreenshot.png" width = "400" height = "214">
 			<!--<p><b>About This Game Is Too Easy:</b>  <br>  Coming soon!</p>-->
             <!--<li><a href="" target="_blank">Coming Soon!</a></li>-->
             <!--<li><a href="" target="_blank">Coming Soon!</a></li>-->
 			<p>Well, it seems that I have pushed this game off to the side.  It can join the other three.</p>
 			<p>Also, this screenshot is old!  I should update it!</p>
-			<br/>
 		</div>
-		<br/>
 		<div id="gameSpan">
 			<h3 id="FNWPD">Five Nights Watching Paint Dry</h3>
 			<img src="images/FNWPDLogo.png" width = "400 height = "300>
 			<p><b>About Five Nights Watching Paint Dry:</b>  <br>  You must watch paint dry for five nights.  Can you survive?!</p>
-			<ul style="list-style-type:  none">
-				<li><a href="http://www.newgrounds.com/portal/view/673008" target="_blank">Play Five Nights Watching Paint Dry on NewGrounds</a></li>
-				<li><a href="" target="_blank"></a>You can only play it on NewGrounds because I won't waste my time putting this crummy game anywhere else.</li>
-			</ul>
-			<br>
+				<a href="http://www.newgrounds.com/portal/view/673008" target="_blank">Play Five Nights Watching Paint Dry on NewGrounds</a>
+				<a href="" target="_blank"></a><p>You can only play it on NewGrounds because I won't waste my time putting this crummy game anywhere else.</p>
 		</div>
 		<br/>
 		<div id="gameSpan">
@@ -119,7 +105,6 @@
 			</ul>
 			<br>
 			</div>
-		<br/>
 		<div id="gameSpan">
 		<h3 id="Panic30">Panic 30</h3>
 		<img src="images/Panic30Screenshot.jpg" width = "400" height = "300">
@@ -130,20 +115,17 @@
 			<li><a href="http://www.kongregate.com/games/MisterTtocS/panic-30" target="_blank">Play Panic 30 on Kongregate</a></li>
 		</ul>
 		</div>
-		<br/>
-		<div id="gameSpan">
+		<div id="gameSpan" id="NotAsA-MAZE-ING" class="gameInfo">
 		<h3 id="NotAsA-MAZE-ING">Not As A-MAZE-ING</h3>
 		<img src="images/NotAsA-MAZE-INGScreenshot.png" width="400" height="300">
-			<p><b>About Not As A-MAZE-ING:</b>  <br> A maze game with achievements.  Can you beat all 15 levels and unlock all ten achievements?</p>
-		<ul style="list-style-type:  none">
-			<li><a href="http://www.newgrounds.com/portal/view/661445" target="_blank">Play Not As A-MAZING on NewGrounds</a></li>
-			<li><a href="http://www.kongregate.com/games/MisterTtocS/not-as-a-maze-ing" target="_blank">Play Not As A-MAZE-ING on Kongregate</a></li>
-			<li><a href="http://gamejolt.com/games/not-as-a-maze-ing/94314" target="_blank">Play Not As A-MAZE-ING on GameJolt</a></li>
-			<li><a href="http://www.gamesbutler.com/game/26025/" target="_blank">Play Not As A-MAZE-ING on GamesButler</a></li>
-		</ul>
-
+				<p><b>About Not As A-MAZE-ING:</b>  <br> A maze game with achievements.  Can you beat all 15 levels and unlock all ten achievements?</p>
+				<ul style="list-style-type:  none">
+					<li><a href="http://www.newgrounds.com/portal/view/661445" target="_blank">Play Not As A-MAZING on NewGrounds</a></li>
+					<li><a href="http://www.kongregate.com/games/MisterTtocS/not-as-a-maze-ing" target="_blank">Play Not As A-MAZE-ING on Kongregate</a></li>
+					<li><a href="http://gamejolt.com/games/not-as-a-maze-ing/94314" target="_blank">Play Not As A-MAZE-ING on GameJolt</a></li>
+					<li><a href="http://www.gamesbutler.com/game/26025/" target="_blank">Play Not As A-MAZE-ING on GamesButler</a></li>
+				</ul>
 		</div>
-		<br/>
 		<!--<div id="gameSpan">
 			<h3 id="CoinUpgrade">Coin Upgrade</h3>
 			<p><b>About Coin Upgrade:</b>  <br>  A game where you click coins and earn money to upgrade the coin and buy upgrades so you make more money!</p>
@@ -154,7 +136,6 @@
 			<br>
 			<br>
 		</div>-->
-		<br/>
         <div id="gamesComingSoon">
             <h3>Games that are on the way:</h3>
             <p>A game that has something to do with a box.</p>
@@ -174,18 +155,7 @@
             <p>An Alien game!  Wow!</p>
             <p>A game about an Ostrich.</p>
         </div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
 		<!--<p><a href="http://misterttocs.github.io/demos">Click here to go to the demos page.</a></p>-->
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
 	</div>
 </body>
 
