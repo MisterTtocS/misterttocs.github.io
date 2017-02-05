@@ -97,15 +97,16 @@ div.gameDiv {
 	background-color:  darkgray;
 	margin-left:  50px;
 	margin-right:  50px;
+	margin-bottom:  10px;
 }
 
 a.gameLink {
 	font-size:  35px;
 	text-decoration:  none;
-	color:  goldenrod;
+	color:  white;
 }
 
 a.gameLink:hover {
-	background-color:  darkgray;
+	background-color:  goldenrod;
 	color:  white;
 }
