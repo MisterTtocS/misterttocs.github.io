@@ -5,32 +5,26 @@
 
 #wrapper {
 	width:  1200px;
-	height:  1420px;
+	height:  auto;
 	margin-right:  auto;
 	margin-left:  auto;
 	background-color:  lightgray;
-}
-
-#gamesWrapper {
-	width:  1200px;
-	height:  7390px;
-	margin-right:  auto;
-	margin-left:  auto;
-	background-color:  lightgray;
+	margin-bottom:  10px;
 }
 
 #topButton {
 	padding-top: 25px;
 	padding-bottom:  25px;
+	padding:  25px;
 }
 
-#nav {
+nav {
 	width:  1200px;
 	float:  left;
 	background-color:  gray;
 }
 
-#header {
+header {
 	width:  1200px;
 	float:  left;
 	background-color:  lightgray;
@@ -40,7 +34,7 @@ h1.pageName {
 	font-size:  100px;
 }
 
-#main {
+main {
 	float:  left;
 	width:  1200px;
 	background-color:  lightgray;
@@ -190,11 +184,4 @@ a:link {
 
 .show {
 	display:  block;
-}
-
-html {
-  /*box-sizing: border-box;*/
-}
-*, *:before, *:after {
-  box-sizing: inherit;
 }

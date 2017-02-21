@@ -11,6 +11,10 @@
 	/*background-color:  lightgray;*/
 }
 
+img.home-button {
+	border-radius:  20%;
+}
+
 #nav {
 	float:  left;
 	width:  1200px;
