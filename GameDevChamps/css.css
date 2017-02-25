@@ -15,22 +15,22 @@ img.home-button {
 	border-radius:  20%;
 }
 
-#nav {
+nav {
 	float:  left;
 	width:  1200px;
 }
 
-#header {
+header {
 	float:  left;
 	width:  1200px;
 	background-color:  lightgray;
 }
 
-#main {
+main {
 	width:  1200px;
 	float:  left;
 	background-color:  lightgray;
-		margin-bottom:  10px;
+	margin-bottom:  10px;
 }
 
 #about {
