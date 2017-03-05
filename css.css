@@ -19,6 +19,20 @@ body {
   font-family:  MisterTtocSHandwritingFont;
 }
 
+#demo-content {
+	text-align:  center;
+}
+
+#demo-content h3 {
+	font-size:  50px;
+	margin-top:  0px;
+	margin-bottom:  0px;
+}
+
+#demo-content p {
+	font-size:  30px;
+}
+
 header {
   width:  1180px;
   height:  210px;
