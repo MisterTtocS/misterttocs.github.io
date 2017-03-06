@@ -183,6 +183,10 @@ main h2 {
 	float:  left;
 }
 
+#gameDiv ul {
+	list-style-type:  none;
+}
+
 #gameDiv h3 {
 	font-size:  60px;
 	margin-top:  10px;
@@ -190,7 +194,7 @@ main h2 {
 }
 
 #gameDiv p {
-	font-size:  50px;
+	font-size:  35px;
 }
 
 #gameDiv a {
