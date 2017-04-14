@@ -176,7 +176,7 @@ main h2 {
 
 #gameDiv {
 	width:  588px;
-	height:  1188px;
+	height:  800px;
 	padding:  5px;
 	background-color:  darkgray;
 	border:  1px solid black;
@@ -187,6 +187,8 @@ main h2 {
 
 #gameDiv ul {
 	list-style-type:  none;
+	margin:  0px;
+	padding:  0px;
 }
 
 #gameDiv h3 {
@@ -197,6 +199,7 @@ main h2 {
 
 #gameDiv p {
 	font-size:  35px;
+	margin:  10px;
 }
 
 #gameDiv a {
