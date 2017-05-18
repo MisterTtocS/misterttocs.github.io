@@ -3,9 +3,22 @@
 	src:  url(fonts/MisterTtocSHandwritingFont.ttf);
 }
 
+@font-face {
+	font-family:  MisterTtocSHandwritingFontThick;
+	src:  url("fonts/MisterTtocSHandwritingFontThick.ttf");
+}
+
 body {
   background-color:  lightgray;
 	background-image:  url("images/background-lightgray.png");
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:  MisterTtocSHandwritingFontThick !important;
+}
+
+p {
+	font-family:  MisterTtocSHandwritingFont;
 }
 
 #wrapper {
@@ -16,7 +29,7 @@ body {
   margin-top:  10px;
   margin-bottom:  10px;
   background-color:  #BBBDBF;
-  font-family:  MisterTtocSHandwritingFont;
+	font-family:  MisterTtocSHandwritingFont;
 }
 
 #demo-content {
