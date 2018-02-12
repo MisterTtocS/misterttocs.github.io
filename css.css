@@ -100,10 +100,15 @@ header {
   margin-left:  10px;
   float:  left;
   background-color:  white;
+
+  transition:  0.5s;
+	-webkit-transition:  0.5s;
+	-o-transition:  0.5s;
+	-moz-transition:  0.5s;
 }
 
 #link-box:hover {
-
+	background-color: #ef1616;
 }
 
 #links a:hover {
@@ -136,6 +141,15 @@ nav li {
   display:  inline-block;
   font-size:  50px;
   padding:  10px;
+
+  transition:  0.5s;
+	-webkit-transition:  0.5s;
+	-o-transition:  0.5s;
+	-moz-transition:  0.5s;
+}
+
+nav li:hover {
+	background-color: #909090;
 }
 
 nav a {
