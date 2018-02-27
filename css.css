@@ -317,7 +317,7 @@ main h2 {
   background-color:  darkgray;
 	border:  3px solid black;
 	border-radius:  3px;
-  float:  right;
+  float:  left;
   line-height:  .7;
 	padding:  10px;
 }
