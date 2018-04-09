@@ -313,9 +313,9 @@ main h2 {
 }
 
 #gamesComingSoon {
-	width:  1174px;
+	width:  1178px;
   background-color:  darkgray;
-	border:  3px solid black;
+	border:  1px solid black;
 	border-radius:  3px;
   float:  left;
   line-height:  .7;
