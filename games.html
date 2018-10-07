@@ -11,7 +11,6 @@
 
   ga('create', 'UA-85671573-1', 'auto');
   ga('send', 'pageview');
-
 </script>
   </head>
   <body>
@@ -69,27 +68,29 @@
         </ul>
       </nav>
       <main>
-        <h1>Games</h1>
+        <div class="play-my-games" style="text-align:  center;">
+        <img src="images/play-my-games.png"/>
+        </div>
         <div id="gameList">
-  			<h3>A list of all my games:</h3>
-  				<!--<p><a href="#Pixeloot" style="color: red;">Pixeloot Dungeon - In development</a></p>-->
-          <p><a href="#AnotherStupidClickerGame" style="color: #ef1616;">Another Stupid Clicker Game</a></p>
-          <p><a href="#RainingMoneyWithUpgrades" style="color: #ef1616;">Raining Money With Upgrades</a></p>
-          <p><a href="#ChampAgainstChumpsUpgradeEdition" style="color: #ef1616;">Champ Against Chumps Upgrade Edition</a></p>
-          
-          <p><a href="#NotAsA-MAZE-ING2017">Not As A-MAZE-ING 2017</a></p>
-          <p><a href="#ChampAgainstChumps">Champ Against Chumps</a></p>
-          <p><a href="#Coingregate">Coingregate</a></p>
-  				<p><a href="#FNWPD">FNWPD</a></p>
-  				<p><a href="#StupidClickerGame">Stupid Clicker Game</a></p>
-  				<p><a href="#Panic30">Panic 30</a></p>
-  				<p><a href="#NotAsA-MAZE-ING">Not As A-MAZE-ING</a></p>
+  			<h3><a id="show-more">Click here for a list of my games</a></h3>
+          <div id="listOfGames" class="hide">
+  				<!--Games that were released this year-->
+            <p><a href="#AnotherStupidClickerGame" style="color: #ef1616;">Another Stupid Clicker Game</a></p>
+            <p><a href="#RainingMoneyWithUpgrades" style="color: #ef1616;">Raining Money With Upgrades</a></p>
+            <p><a href="#ChampAgainstChumpsUpgradeEdition" style="color: #ef1616;">Champ Against Chumps Upgrade Edition</a></p>
+            
+            <p><a href="#NotAsA-MAZE-ING2017">Not As A-MAZE-ING 2017</a></p>
+            <p><a href="#ChampAgainstChumps">Champ Against Chumps</a></p>
+            <p><a href="#Coingregate">Coingregate</a></p>
+    				<p><a href="#FNWPD">FNWPD</a></p>
+    				<p><a href="#StupidClickerGame">Stupid Clicker Game</a></p>
+    				<p><a href="#Panic30">Panic 30</a></p>
+    				<p><a href="#NotAsA-MAZE-ING">Not As A-MAZE-ING</a></p>
+          </div>
   			</div>
 
 
-    <div class="play-my-games" style="text-align:  center;">
-      <img src="images/play-my-games.png"/>
-    </div>
+    
 
     <!-- THE GAMES GO HERE -->
 
@@ -277,5 +278,24 @@
             </div>
       </main>
     </div>
+    <footer>
+      <script>
+        // for the games list
+      var showMore = document.getElementById("show-more");
+      var listOfGames = document.getElementById("listOfGames");
+
+      showMore.addEventListener("click", function() {
+        if (listOfGames.className === "hide") {
+          listOfGames.className = "";
+          console.log("not hidden")
+          showMore.innerHTML = "A list of all my games:";
+        } else {
+          listOfGames.className = "hide";
+          console.log("hidden")
+          showMore.innerHTML = "Click here for a list of my games";
+        }
+      });
+      </script>
+    </footer>
   </body>
 </html>

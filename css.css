@@ -207,7 +207,7 @@ main h2 {
 
 #about-box {
   width:  578px;
-  height:  678px;
+  height:  688px;
   float:  left;
   padding:  10px;
 	border:  1px solid black;
@@ -215,9 +215,18 @@ main h2 {
 	background-color:  darkgray;
 }
 
+#about-box h2 {
+	font-size: 100px;
+	line-height: 0.0px;
+}
+
+#about-box p {
+	line-height: 30px;
+}
+
 #tweets-box {
   width:  548px;
-  height:  673px;
+  height:  683px;
   float:  left;
   padding-right:  25px;
   padding-left:  25px;
@@ -225,6 +234,11 @@ main h2 {
 	border:  1px solid black;
 	border-radius:  3px;
 	background-color:  darkgray;
+}
+
+#tweets-box h2 {
+	font-size: 100px;
+	line-height: 0.0px;
 }
 
 #gameDiv {
@@ -329,4 +343,27 @@ main h2 {
 
 a {
 	text-decoration:  none;
+}
+
+.hide {
+	display: none;
+
+	transition:  0.5s;
+	-webkit-transition:  0.5s;
+	-o-transition:  0.5s;
+	-moz-transition:  0.5s;
+}
+
+#show-more {
+	color: #ef1616;
+
+	transition:  0.5s;
+	-webkit-transition:  0.5s;
+	-o-transition:  0.5s;
+	-moz-transition:  0.5s;
+}
+
+#show-more:hover {
+	background-color: #ef1616;
+	cursor: pointer;
 }
