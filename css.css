@@ -245,12 +245,12 @@ main h2 {
 	width:  1188px;  /* was 588px */
 	height:  500px;
 	padding:  5px;
-	/*background-color:  darkgray;
-	/*border:  1px solid black;
-	border-radius:  3px;*/
+	/*background-color:  darkgray;*/
+	border:  1px solid black;
+	border-radius:  3px;
 	text-align:  center;
 	float:  left;
-	background:  url(images/game-div.jpg);
+	/*background:  url(images/game-div.jpg);*/
 
 	transition:  0.5s;
 	-webkit-transition:  0.5s;
@@ -259,7 +259,8 @@ main h2 {
 }
 
 #gameDiv:hover {
-	background:  url(images/game-div-hover.jpg);
+	/*background:  url(images/game-div-hover.jpg);*/
+	background-color:  darkgray;
 }
 
 #gameDiv ul {
