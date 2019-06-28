@@ -1,11 +1,11 @@
 @font-face {
-	font-family:  MisterTtocSHandwritingFont;
-	src:  url(fonts/MisterTtocSHandwritingFont.ttf);
+	font-family:  MisterTtocSHandwritingFont2019;
+	src:  url(fonts/MisterTtocSHandwritingFont2019.ttf);
 }
 
 @font-face {
-	font-family:  MisterTtocSHandwritingFontThick;
-	src:  url("fonts/MisterTtocSHandwritingFontThick.ttf");
+	font-family:  Jumppit;
+	src:  url("fonts/Jumppit-Regular.ttf");
 }
 
 body {
@@ -14,11 +14,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family:  MisterTtocSHandwritingFontThick !important;
+	font-family:  Jumppit !important;
+	font-weight: bold;
 }
 
 p {
-	font-family:  MisterTtocSHandwritingFont;
+	font-family:  MisterTtocSHandwritingFont2019;
 }
 
 #wrapper {
@@ -29,7 +30,7 @@ p {
   margin-top:  10px;
   margin-bottom:  10px;
   background-color:  #BBBDBF;
-	font-family:  MisterTtocSHandwritingFont;
+	font-family:  MisterTtocSHandwritingFont2019;
 }
 
 #demo-content {
@@ -139,7 +140,7 @@ nav {
 nav ul {
   margin-right:  10px;
   display:  inline;
-  font-size:  50px;
+  font-size:  40px;
   list-style-type:  none;
   padding:  0px;
 }
@@ -150,7 +151,7 @@ nav li {
   text-align:  center;
   background-color:  #BBBDBF;
   display:  inline-block;
-  font-size:  50px;
+  font-size:  40px;
   padding:  10px;
 background:  url("images/button-template.png");  
 background-color:  white;
@@ -178,7 +179,7 @@ nav a {
 
 nav a:hover {
 	color:  white;
-	font-size:  55px;
+	font-size:  50px;
 }
 
 main {
@@ -196,7 +197,7 @@ main h1 {
 }
 
 main p {
-  font-size:  35px;
+  font-size:  30px;
   text-align:  center;
 }
 
@@ -277,12 +278,12 @@ main h2 {
 }
 
 #gameDiv p {
-	font-size:  35px;
+	font-size:  25px;
 	margin:  10px;
 }
 
 #gameDiv a {
-	font-size:  30px;
+	font-size:  25px;
 	color:  blue;
 
 	transition:  0.5s;
