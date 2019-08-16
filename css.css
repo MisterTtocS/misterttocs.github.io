@@ -308,6 +308,11 @@ main h2 {
 	float:  left;
 }
 
+
+.gameCredits {
+	font-size: 20px;
+}
+
 #gameList {
 	/*background-color:  #969696;
 	border:  1px solid black;*/
@@ -369,3 +374,4 @@ a {
 	background-color: #ef1616;
 	cursor: pointer;
 }
+
